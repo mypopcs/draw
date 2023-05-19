@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="<?php $this->options->themeUrl('./img/favicon.png'); ?>">
     <title><?php $this->archiveTitle(array('category' => _t(' %s '), 'search' => _t(' %s '), 'tag' => _t(' %s '), 'author' => _t(' %s ')), '', ' - '); ?><?php $this->options->title(); ?></title>
     <!-- inject:css -->
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('./css/style.min.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('./css/style.css'); ?>">
     <link href="//lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/twitter-bootstrap/3.4.0/css/bootstrap.min.css"
           type="text/css" rel="stylesheet"/>
     <link href="//lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css" type="text/css"

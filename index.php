@@ -55,7 +55,7 @@ $this->need('header.php'); ?>
     <div class="ajaxloadpost" style="display:none">
         <?php $this->pageLink('下一页', 'next'); ?>
     </div>
-</section>
-<!--body content end-->
+    <!--body content end-->
 
-<?php $this->need('footer.php'); ?>
+    <?php $this->need('footer.php'); ?>
+</section>
